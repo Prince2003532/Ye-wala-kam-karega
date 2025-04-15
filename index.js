@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const ytdl = require('ytdl-core');
-
+const res = await fetch('https://ye-wala-kam-karega-57ai.onrender.com/download', {
 const app = express();
 app.use(cors());
 
